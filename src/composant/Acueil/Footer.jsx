@@ -16,7 +16,7 @@ import {
 import { useState } from "react";
 import colors from "../../Styles/colors";
 
-// Animations
+// Animations rccm
 const footerVariants = {
   hidden: { opacity: 0 },
   visible: {
@@ -317,11 +317,11 @@ const Footer = () => {
         <ModalText>
           <h4>Éditeur du site</h4>
           <p>
-            SEMYG IMMOBILIER
+            SEMYG IMMOBILIER SARLU
             <br />
             Capital social : 50 000 000 GNF
             <br />
-            RCCM : GN-KAL-01-2022-B14-00001
+            RCCM : GN-TTC-2020.B.07216
             <br />
             Siège social : Minière, Commune de Dixinn, Conakry, Guinée
           </p>
@@ -329,7 +329,7 @@ const Footer = () => {
           <p>M. Douglas , Gérant</p>
           <h4>Hébergement</h4>
           <p>
-           
+           Hostinger
             <br />
             Serveur sécurisé Europe
           </p>
