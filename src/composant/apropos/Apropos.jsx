@@ -4,8 +4,7 @@ import styled from "styled-components";
 import { motion } from "framer-motion";
 import colors from "../../Styles/colors";
 import { imagess } from "../../assets/imagess";
-import MonQRCode from "../../MonQRCode";
-
+ 
 // ============ SEO (Lazy + memo) ============
 const SEO = lazy(() => import("../../SEO"));
 const Navbard = lazy(() => import("../Acueil/Barnav2"));

@@ -1,7 +1,7 @@
 // src/components/Sections/PremiumServicesSemyg.jsx
 import styled from "styled-components";
-import {  FaSquareWhatsapp, FaPhone, FaScaleUnbalanced, FaBuildingCircleCheck } from "react-icons/fa6";
-import { FaChartArea, FaChartLine, FaWhatsappSquare } from "react-icons/fa";
+import {   FaScaleUnbalanced, FaBuildingCircleCheck } from "react-icons/fa6";
+import { FaChartArea, FaWhatsappSquare } from "react-icons/fa";
 import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
  import colors from "../../Styles/colors";
