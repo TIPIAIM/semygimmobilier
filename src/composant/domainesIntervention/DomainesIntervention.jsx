@@ -9,7 +9,8 @@ import {
   FaInfoCircle,
   FaTimes,
   FaChevronRight,
-  FaArrowRight
+  FaArrowRight,
+  FaChrome
 } from "react-icons/fa";
 import { useNavigate } from "react-router-dom";
 import colors from "../../Styles/colors";
@@ -650,7 +651,7 @@ const DomainesExpertiseGrid = memo(function DomainesExpertiseGrid() {
   const pageUrl = `${baseUrl}/domaines`;
   const ogImage = toAbsolute(memoizedItems[0]?.cover);
 
-  // Fermer la lightbox avec la touche Échap
+  // Fermer la lightbox avec la touche Échap en s
   React.useEffect(() => {
     const handleEscape = (e) => {
       if (e.keyCode === 27) closeLightbox();
@@ -808,7 +809,7 @@ const DomainesExpertiseGrid = memo(function DomainesExpertiseGrid() {
                     {memoizedItems[current].description}
                   </LightboxDescription>
                   <CTAButton>
-                    En savoir plus <FaChevronRight size={14} />
+                      <FaChrome size={14} />
                   </CTAButton>
                 </LightboxContent>
               </Lightbox>
