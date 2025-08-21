@@ -348,17 +348,17 @@ const APropos = () => {
               photo: imagess.bàtimentetàge2 || "/placeholder.jpg",
             },
             {
-              name: "Me Amadou Oury",
+              name: "Me madou ",
               role: "Conseil juridique & structuration",
               photo: imagess.bàtimentetàge1 || "/placeholder.jpg",
             },
             {
-              name: "Alpha Ousmane",
+              name: "Alpha ",
               role: "Direction Technique & Qualité chantier",
               photo: imagess.bàtimentecole4 || imagess.àlphà || "/placeholder.jpg",
             },
             {
-              name: "Moussadjan Kaba",
+              name: "Moussa",
               role: "Direction Financière & Développement",
               photo: imagess.bàtimentvillà || "/placeholder.jpg",
             },
