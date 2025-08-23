@@ -244,7 +244,7 @@ const APropos = () => {
 
   const seoTitle = "Qui sommes‑nous ? | Semyg Groupe Immobilier";
   const seoDescription =
-    "Semyg Groupe Immobilier conçoit, développe et gère des actifs résidentiels et tertiaires : études de faisabilité, montage, promotion, commercialisation et gestion locative. Notre promesse : transparence, rigueur et performance durable.";
+    "MK globale services , développe et gère des actifs résidentiels et tertiaires : études de faisabilité, montage, promotion, commercialisation et gestion locative. Notre promesse : transparence, rigueur et performance durable.";
   const seoKeywords = [
     "Semyg Groupe Immobilier",
     "promotion immobilière",
@@ -259,7 +259,7 @@ const APropos = () => {
 
   return (
     <>
-      {/* SEO */}
+   
       <Suspense fallback={null}>
         <SEOMemo
           title={seoTitle}
@@ -270,12 +270,12 @@ const APropos = () => {
         />
       </Suspense>
 
-      {/* Barre de navigation (lazy) */}
+   
       <Suspense fallback={null}>
         <Navbard />
       </Suspense>
 
-      {/* À propos */}
+  
       <AboutContainer>
         <ContentGrid>
           <VisualSection
@@ -342,21 +342,13 @@ const APropos = () => {
 
         <TeamGrid>
           {[
-            {
-              name: "Thierno Bachir",
-              role: "Direction Générale – Semyg Groupe Immobilier",
-              photo: imagess.bàtimentetàge2 || "/placeholder.jpg",
-            },
+           
             {
               name: "Me madou ",
               role: "Conseil juridique & structuration",
               photo: imagess.bàtimentetàge1 || "/placeholder.jpg",
             },
-            {
-              name: "Alpha ",
-              role: "Direction Technique & Qualité chantier",
-              photo: imagess.bàtimentecole4 || imagess.àlphà || "/placeholder.jpg",
-            },
+        
             {
               name: "Moussa",
               role: "Direction Financière & Développement",
